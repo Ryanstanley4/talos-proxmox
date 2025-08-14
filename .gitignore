@@ -1,0 +1,49 @@
+# General
+*.log
+*.tmp
+*.swp
+*.bak
+.DS_Store
+
+# OS generated files
+Thumbs.db
+
+# Git
+.git/
+.gitignore
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraformrc
+terraform.rc
+
+# Talos cluster build artifacts
+talosconfig
+secrets.yaml
+*.kubeconfig
+*.crt
+*.key
+
+# Notes and docs
+notes/
+*.md~
+*.rst~
+*.org~
+*.txt~
+
+# Editor/IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# Misc
+.env
+.env.*
