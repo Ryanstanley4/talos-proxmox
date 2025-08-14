@@ -47,3 +47,5 @@ notes/
 # Misc
 .env
 .env.*
+envs/set-env.ps1
+envs/set-env.sh
