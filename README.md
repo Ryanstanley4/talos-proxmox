@@ -5,6 +5,7 @@
 - You will need a custom ISO. To get this, navigate to https://factory.talos.dev/
 - Scroll down and select your Talos version
 - Then tick the box for siderolabs/qemu-guest-agent and submit
+    - If you use the secure boot imiage use UEFI BIOS and add an EFI disk
 - This will provide you with a link to the bare metal ISO
 - The lines we’re interested in are as follows
 - Place this ISO onto a store on Proxmoxm we will use `iso_storage` and `iso_file` in the terraform later.
